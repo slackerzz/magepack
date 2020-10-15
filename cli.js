@@ -20,6 +20,7 @@ program
     .requiredOption('--category-url <url>', 'Category page URL.')
     .requiredOption('--product-url <url>', 'Product page URL.')
     .requiredOption('--site-url <url>', 'Home page URL.')
+    .option('-no-checkout', 'Exclude checkout from analysis')
     .option('-u, --auth-username <user>', 'Basic authentication username.')
     .option('-p, --auth-password <password>', 'Basic authentication password.')
     .option('-d, --debug', 'Enable logging of debugging information.')
